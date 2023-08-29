@@ -34,7 +34,7 @@ function App() {
           </p> 
         <div className='flex'>
          <Ingridents/> 
-        <Images/> 
+       
         </div>
      
          <Instructions/>
