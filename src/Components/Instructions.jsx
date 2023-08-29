@@ -4,7 +4,7 @@ function Instructions() {
     return (
       <div className="p-1 pb-10">    
         <div className="mb-1 ">
-          <div className=" ml-4">
+          <div className=" w-[20%] ml-4">
           <h2 className="text-lg font-semibold mb-2">Instructions:</h2>
           <ol className="list-decimal pl-6">
             {recipe.map((step, index) => (

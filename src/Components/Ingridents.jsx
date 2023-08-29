@@ -9,7 +9,7 @@ function Ingredients() {
        
         
         <div className="mb-1">
-           <div className=" ml-4">
+           <div className="w-[20%] ml-4">
 
            <h2 className="text-lg font-semibold mb-2">Ingredients:</h2>
           <ul className="list-disc pl-6">

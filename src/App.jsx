@@ -32,7 +32,7 @@ function App() {
         <p className="mt-3 sm:mt-5 text-left font-bold text-lg sm:text-2xl text-blue-500">
           How to make one ?
           </p> 
-        <div className='flex'>
+        <div className>
          <Ingridents/> 
        
         </div>
