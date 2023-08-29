@@ -1,6 +1,9 @@
 import React from 'react'
 import { useState } from 'react'
-import MealPortions from './Components/MealPortions'
+import Ingridents from './Components/Ingridents'
+import Instructions from './Components/Instructions'
+import Notes from './Components/Notes'
+
 /*
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
@@ -28,7 +31,10 @@ function App() {
         <p className="mt-5 text-left font-bold text-2xl text-blue-500">
           How to make one ?
           </p> 
-         <MealPortions/>   
+         <Ingridents/>
+         <Instructions/>
+         <Notes/>  
+         
        {/*
         <a href="https://google.com" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
