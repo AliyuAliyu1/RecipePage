@@ -2,7 +2,7 @@ const recipeDetails = {
     name: 'Pounded Yam',
     image: 'https://thumbs.dreamstime.com/z/egusi-soup-pounded-yam-nigerian-cuisine-isolated-white-background-62743456.jpg?w=768',
     
-    // Object.keys(recipeDetails.instructions[0])
+    // Object.keys(recipeDetails.meal_portion[0]["Egusi soup"].Image_of_egusi_soup)
     meal_portion : [
       {
       "pounded yam":{
@@ -34,7 +34,7 @@ const recipeDetails = {
           
           }
           ,
-      Image_of_egusi_soup:[]
+      Image_of_egusi_soup:'https://www.preciouscore.com/wp-content/uploads/2018/10/Egusi-Soup-Nigerian-Egusi-Soup.jpg'
           
           },
           "boiled yam":{

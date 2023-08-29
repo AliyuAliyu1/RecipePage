@@ -3,6 +3,7 @@ import { useState } from 'react'
 import Ingridents from './Components/Ingridents'
 import Instructions from './Components/Instructions'
 import Notes from './Components/Notes'
+import Images from './Components/Images'
 
 /*
 import reactLogo from './assets/react.svg'
@@ -18,20 +19,24 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className='p-4 sm:p-6 md:p-8 lg:p-10'>
 
-     <h1 className='text-8xl  bg-purple-200'> 
+     <h1 className='text-4xl sm:text-6xl bg-purple-200 p-2 sm:p-4'> 
                   My Nigerian Recipe          
      </h1>
-      <p className="mt-10">
-          <h2 className='text-3xl inline-block font-bold border-b border-t border-l border-r'>
+      <p className="mt-4 sm:mt-6">
+          <h2 className='text-xl sm:text-3xl inline-block font-bold border-b border-t border-l border-r'>
            My favourite Meal is Pounded Yam
           </h2>
         </p> 
-        <p className="mt-5 text-left font-bold text-2xl text-blue-500">
+        <p className="mt-3 sm:mt-5 text-left font-bold text-lg sm:text-2xl text-blue-500">
           How to make one ?
           </p> 
-         <Ingridents/>
+        <div className='flex'>
+         <Ingridents/> 
+        <Images/> 
+        </div>
+     
          <Instructions/>
          <Notes/>  
          
